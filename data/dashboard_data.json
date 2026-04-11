@@ -1,0 +1,46 @@
+{
+  "signals": [
+    {
+      "asset": "sp500",
+      "signal": "SHORT",
+      "size": 0.0,
+      "weight": 0.0,
+      "confidence": 0.5142284667067517,
+      "q_low": -0.03286622212912482,
+      "q_high": 0.036071351590566146,
+      "model": "LGBM",
+      "expected": -0.0006050988366686424,
+      "dispersion": 0.18021936583598314,
+      "dispersion_label": "High"
+    },
+    {
+      "asset": "gold",
+      "signal": "SHORT",
+      "size": 0.10543410398237638,
+      "weight": 0.4127643973087117,
+      "confidence": 0.47267642230528506,
+      "q_low": -0.07856691702861886,
+      "q_high": 0.011109811118110597,
+      "model": "LGBM",
+      "expected": -0.014583515631927854,
+      "dispersion": 0.18021936583598314,
+      "dispersion_label": "High"
+    },
+    {
+      "asset": "bonds",
+      "signal": "SHORT",
+      "size": 0.15,
+      "weight": 0.5872356026912883,
+      "confidence": 0.5359888145635446,
+      "q_low": -0.0407826544297372,
+      "q_high": 0.014825842302166428,
+      "model": "LGBM",
+      "expected": -0.026019810472123903,
+      "dispersion": 0.18021936583598314,
+      "dispersion_label": "High"
+    }
+  ],
+  "confidence": 0.5076312345251938,
+  "exposure": 0.13160478478976287,
+  "playbook": "Defensive positioning \u2014 signals not reliable"
+}

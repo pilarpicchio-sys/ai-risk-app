@@ -22,7 +22,7 @@ if "capital" not in st.session_state:
 # -----------------------------
 @st.cache_data(ttl=2)
 def load_model():
-    path = r"C:\Users\Gianluca\quant_data\dashboard_data.json"
+    path = "data/dashboard_data.json"
 
     if not os.path.exists(path):
         st.error("Model file not found")
