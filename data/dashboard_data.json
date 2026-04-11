@@ -10,7 +10,7 @@
       "q_high": 0.036071351590566146,
       "model": "LGBM",
       "expected": -0.0006050988366686424,
-      "dispersion": 0.18021936583598314,
+      "dispersion": 0.15124238214434832,
       "dispersion_label": "High"
     },
     {
@@ -23,7 +23,7 @@
       "q_high": 0.011109811118110597,
       "model": "LGBM",
       "expected": -0.014583515631927854,
-      "dispersion": 0.18021936583598314,
+      "dispersion": 0.15124238214434832,
       "dispersion_label": "High"
     },
     {
@@ -31,16 +31,16 @@
       "signal": "SHORT",
       "size": 0.15,
       "weight": 0.5872356026912883,
-      "confidence": 0.5359888145635446,
-      "q_low": -0.0407826544297372,
-      "q_high": 0.014825842302166428,
+      "confidence": 0.5999682522513139,
+      "q_low": -0.03796683266010837,
+      "q_high": 0.013505151286517388,
       "model": "LGBM",
-      "expected": -0.026019810472123903,
-      "dispersion": 0.18021936583598314,
+      "expected": -0.01996162708358905,
+      "dispersion": 0.15124238214434832,
       "dispersion_label": "High"
     }
   ],
-  "confidence": 0.5076312345251938,
+  "confidence": 0.5289577137544502,
   "exposure": 0.13160478478976287,
   "playbook": "Defensive positioning \u2014 signals not reliable"
 }
