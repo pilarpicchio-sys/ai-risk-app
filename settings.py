@@ -1,4 +1,6 @@
-BASE_PATH = r"C:\Users\Gianluca\ai-risk-app"
+import os
 
-DATA_PATH = BASE_PATH + r"\data\dashboard_data.json"
-REPORTS_PATH = BASE_PATH + r"\reports"
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+
+DATA_PATH = os.path.join(BASE_DIR, "data", "dashboard_data.json")
+REPORTS_PATH = os.path.join(BASE_DIR, "reports")

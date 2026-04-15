@@ -4,6 +4,7 @@ import os
 import pandas as pd
 
 from settings import DATA_PATH  # ✅ FIX PATH
+print("DEBUG PATH:", DATA_PATH)
 
 
 # -----------------------------
