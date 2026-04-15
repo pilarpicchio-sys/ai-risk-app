@@ -3,7 +3,7 @@ import json
 import os
 import pandas as pd
 
-
+from settings import DATA_PATH  # ✅ FIX PATH
 
 
 # -----------------------------
@@ -22,14 +22,20 @@ if "capital" not in st.session_state:
 # -----------------------------
 @st.cache_data(ttl=2)
 def load_model():
-    path = "data/dashboard_data.json"
+
+    # ✅ FIX ROBUSTO (file o cartella)
+    if DATA_PATH.endswith(".json"):
+        path = DATA_PATH
+    else:
+        path = os.path.join(DATA_PATH, "dashboard_data.json")
 
     if not os.path.exists(path):
-        st.error("Model file not found")
+        st.error(f"Model file not found: {path}")
         return {}
 
     with open(path, "r") as f:
         return json.load(f)
+
 
 report = load_model()
 
