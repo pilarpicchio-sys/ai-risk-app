@@ -5,12 +5,12 @@
       "signal": "LONG",
       "size": 0.15,
       "weight": 0.33333333333333337,
-      "confidence": 0.48761610732902616,
-      "q_low": -0.03482805197110039,
-      "q_high": 0.03841213008034848,
+      "confidence": 0.5229776742523359,
+      "q_low": -0.03202715884926479,
+      "q_high": 0.03617047069928037,
       "model": "LGBM",
-      "expected": 0.006315572603723199,
-      "dispersion": 0.2759545585580388,
+      "expected": 0.004428777944491761,
+      "dispersion": 0.18086708917067382,
       "dispersion_label": "High"
     },
     {
@@ -18,12 +18,12 @@
       "signal": "SHORT",
       "size": 0.15,
       "weight": 0.33333333333333337,
-      "confidence": 0.6541397779793271,
-      "q_low": -0.07561913427224282,
-      "q_high": -0.016231406332983082,
+      "confidence": 0.4042777755861422,
+      "q_low": -0.09332397311212057,
+      "q_high": 0.008248681132251509,
       "model": "LGBM",
-      "expected": -0.045755047922135514,
-      "dispersion": 0.2759545585580388,
+      "expected": -0.04574832433446677,
+      "dispersion": 0.18086708917067382,
       "dispersion_label": "High"
     },
     {
@@ -31,16 +31,16 @@
       "signal": "SHORT",
       "size": 0.15,
       "weight": 0.33333333333333337,
-      "confidence": 0.5446680484272568,
-      "q_low": -0.04361498127432073,
-      "q_high": 0.015388937475891973,
+      "confidence": 0.5565072570424004,
+      "q_low": -0.038216642776978976,
+      "q_high": 0.01828702812968711,
       "model": "LGBM",
-      "expected": -0.015445722457237136,
-      "dispersion": 0.2759545585580388,
+      "expected": -0.009782426238665026,
+      "dispersion": 0.18086708917067382,
       "dispersion_label": "High"
     }
   ],
-  "confidence": 0.5621413112452033,
+  "confidence": 0.4945875689602928,
   "exposure": 0.15000000000000002,
-  "playbook": "Reduce exposure \u2014 signals not aligned"
+  "playbook": "Defensive positioning \u2014 signals not reliable"
 }
