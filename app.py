@@ -40,6 +40,24 @@ def load_model():
 
 report = load_model()
 
+
+st.write("DEBUG DATA_PATH:", DATA_PATH)
+
+# ricostruisci path reale
+if DATA_PATH.endswith(".json"):
+    debug_path = DATA_PATH
+else:
+    debug_path = os.path.join(DATA_PATH, "dashboard_data.json")
+
+st.write("DEBUG FILE PATH:", debug_path)
+
+if os.path.exists(debug_path):
+    with open(debug_path) as f:
+        debug_json = json.load(f)
+    st.write("DEBUG EXPOSURE:", debug_json.get("exposure"))
+else:
+    st.write("DEBUG: file NON esiste")
+
 signals = report.get("signals", [])
 playbook = report.get("playbook", "No signal available")
 confidence = report.get("confidence", 0)
