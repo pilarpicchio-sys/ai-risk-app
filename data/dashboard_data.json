@@ -3,44 +3,38 @@
     {
       "asset": "sp500",
       "signal": "LONG",
-      "size": 0.039222780142350484,
-      "weight": 0.15356672231209356,
-      "confidence": 0.4671374068983215,
-      "q_low": -0.03847224208631342,
-      "q_high": 0.039562696443716586,
+      "size": 0.0,
+      "weight": 0.0,
+      "confidence": 0.9323570110113688,
+      "q_low": -0.024303668700791065,
+      "q_high": 0.04333932028784008,
       "model": "LGBM",
-      "expected": 0.012232967052474184,
-      "dispersion": 0.23196736558708517,
-      "dispersion_label": "High"
+      "expected": 0.007396710684597377
     },
     {
       "asset": "gold",
-      "signal": "LONG",
-      "size": 0.06618919682644912,
-      "weight": 0.2591468012266888,
-      "confidence": 0.3713528753985429,
-      "q_low": -0.02540004525417968,
-      "q_high": 0.08044364291863126,
+      "signal": "SHORT",
+      "size": 0.15,
+      "weight": -0.5117910862059569,
+      "confidence": 0.951980450919598,
+      "q_low": -0.06328630102468884,
+      "q_high": -0.015266751944286894,
       "model": "LGBM",
-      "expected": 0.029735651357570725,
-      "dispersion": 0.23196736558708517,
-      "dispersion_label": "High"
+      "expected": -0.08835300731448899
     },
     {
       "asset": "bonds",
       "signal": "SHORT",
-      "size": 0.15,
-      "weight": -0.5872864764612177,
-      "confidence": 0.5284468048080255,
-      "q_low": -0.03838558617483588,
-      "q_high": 0.02013526288679283,
+      "size": 0.14308834022880268,
+      "weight": -0.48820891379404296,
+      "confidence": 0.9627120745669353,
+      "q_low": -0.023262261110537176,
+      "q_high": 0.014025664322527477,
       "model": "LGBM",
-      "expected": -0.017526699237604738,
-      "dispersion": 0.23196736558708517,
-      "dispersion_label": "High"
+      "expected": -0.003086065621158503
     }
   ],
-  "confidence": 0.45564569570163,
-  "exposure": 0.2554119769687996,
+  "confidence": 0.9490165121659674,
+  "exposure": 0.2930883402288027,
   "playbook": "Defensive positioning \u2014 signals not reliable"
 }
