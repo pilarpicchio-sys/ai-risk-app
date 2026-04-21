@@ -1,4 +1,2 @@
-date	regime	confidence	exposure	dispersion	return	action	strategy_return	benchmark_return	drawdown
-2026-04-15	DEFENSIVE	0,521	0,15	0,275	1,76942219110684	Reduce risk			
-2026-04-16	NEUTRAL	0,587	0,15	0,167	1,76942219110684	Stay cautious			
-2026-04-17	DEFENSIVE	0,491	0,15	0,248	1,76942219110684	Recommended action: Reduce risk	-0,001573469321767	0,0115235742722497	-0,001573469321767
+date,regime,confidence,exposure,dispersion,return,strategy_return,benchmark_return,drawdown,action
+2026-04-21,ACTIVE,0.948,0.3,0.415,1.7694221911068388,0.0,0.0,0.0,Increase exposure

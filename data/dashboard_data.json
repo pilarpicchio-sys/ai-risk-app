@@ -15,7 +15,7 @@
       "asset": "gold",
       "signal": "SHORT",
       "size": 0.15,
-      "weight": -0.5117910862059569,
+      "weight": -0.5,
       "confidence": 0.951980450919598,
       "q_low": -0.06328630102468884,
       "q_high": -0.015266751944286894,
@@ -25,16 +25,17 @@
     {
       "asset": "bonds",
       "signal": "SHORT",
-      "size": 0.14308834022880268,
-      "weight": -0.48820891379404296,
-      "confidence": 0.9627120745669353,
-      "q_low": -0.023262261110537176,
-      "q_high": 0.014025664322527477,
+      "size": 0.15,
+      "weight": -0.5,
+      "confidence": 0.9593527404797942,
+      "q_low": -0.022973374011135042,
+      "q_high": 0.01767388550907074,
       "model": "LGBM",
-      "expected": -0.003086065621158503
+      "expected": -0.007730815424610955
     }
   ],
-  "confidence": 0.9490165121659674,
-  "exposure": 0.2930883402288027,
-  "playbook": "Defensive positioning \u2014 signals not reliable"
+  "confidence": 0.9478967341369203,
+  "exposure": 0.3,
+  "dispersion": 0.4145679596537789,
+  "playbook": "Maintain positioning \u2014 signals active"
 }
