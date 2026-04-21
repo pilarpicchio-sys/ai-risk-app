@@ -62,6 +62,7 @@ signals = report.get("signals", [])
 playbook = report.get("playbook", "No signal available")
 confidence = report.get("confidence", 0)
 exposure = report.get("exposure", 0)
+dispersion = report.get("dispersion", 0)
 
 # -----------------------------
 # COLORI REGIME
@@ -130,9 +131,14 @@ base_invest = capital * exposure
 
 st.divider()
 
-c1, c2 = st.columns(2)
+
+c1, c2, c3 = st.columns(3)
+
 c1.metric("Exposure", f"{exposure*100:.1f}%")
 c2.metric("Investable", f"{base_invest:,.0f} €")
+c3.metric("Dispersion", f"{dispersion:.2f}")
+
+
 
 # -----------------------------
 # PROFILE
@@ -201,6 +207,7 @@ st.markdown(f"""
 
 - Confidence: **{confidence:.2f}**  
 - Exposure: **{exposure:.2f}**
+- Dispersion: **{dispersion:.2f}**
 
 👉 Signals quality reflected in playbook  
 """)
