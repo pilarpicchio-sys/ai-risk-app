@@ -1,28 +1,28 @@
 Adaptive Alpha — Daily Update
 
 Playbook:
-Maintain positioning — signals active
+No clear action
 
 This reflects the current market condition as derived from the model.
 
 Performance:
-Return: 176.9%
-Alpha: 35.3%
+Return: 4.8%
+Alpha: -136.9%
 
 Lead signal:
-BONDS → SHORT (0.96)
+SP500 → LONG (0.57)
 
 ---
 
 FULL SYSTEM OUTPUT
 
 Portfolio state:
-- Exposure: 30.0%
-- Confidence: 0.95
-- Dispersion: 0.415
+- Exposure: 17.8%
+- Confidence: 0.45
+- Dispersion: 0.204
 
 Top signals:
-- BONDS: SHORT (0.96)
-- GOLD: SHORT (0.95)
-- SP500: LONG (0.93)
+- SP500: LONG (0.57)
+- BONDS: SHORT (0.43)
+- GOLD: SHORT (0.36)
 
