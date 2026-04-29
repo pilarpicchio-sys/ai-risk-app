@@ -181,10 +181,16 @@ c1, c2 = st.columns(2)
 c1.metric("Cash", f"{cash:,.0f} €")
 c2.metric("Invested", f"{invest:,.0f} €")
 
+
+
 # -----------------------------
 # GRAPH
 # -----------------------------
 data = []
+
+# 👉 calcolo pesi totali
+weights = [abs(s.get("weight", 0)) for s in signals if s.get("weight", 0) != 0]
+total_weight = sum(weights)
 
 for s in signals:
     weight = s.get("weight", 0)
@@ -192,16 +198,25 @@ for s in signals:
     if weight == 0:
         continue
 
-    value = invest * weight
+    # 👉 normalizzazione corretta
+    norm_weight = abs(weight) / total_weight if total_weight > 0 else 0
+    value = invest * norm_weight
 
     data.append({
         "Asset": s.get("asset", "").upper(),
-        "€": abs(value)
+        "€": value
     })
 
+
+
+# 👉 grafico
 if data:
     df = pd.DataFrame(data).sort_values("€", ascending=False)
     st.bar_chart(df.set_index("Asset"), height=200)
+
+
+
+
 
 # -----------------------------
 # MARKET CONTEXT
