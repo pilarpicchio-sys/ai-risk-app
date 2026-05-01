@@ -10,19 +10,19 @@ Return: 4.8%
 Alpha: -136.9%
 
 Lead signal:
-SP500 → LONG (0.57)
+BONDS → LONG (0.51)
 
 ---
 
 FULL SYSTEM OUTPUT
 
 Portfolio state:
-- Exposure: 17.8%
-- Confidence: 0.45
-- Dispersion: 0.204
+- Exposure: 18.0%
+- Confidence: 0.46
+- Dispersion: 0.194
 
 Top signals:
-- SP500: LONG (0.57)
-- BONDS: SHORT (0.43)
+- BONDS: LONG (0.51)
+- SP500: LONG (0.49)
 - GOLD: SHORT (0.36)
 
